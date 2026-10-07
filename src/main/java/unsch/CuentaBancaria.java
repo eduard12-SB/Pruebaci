@@ -11,7 +11,7 @@ public class CuentaBancaria {
     public double obtenerSaldo() {
         return saldo;
     }
-
+/* Agregar metodo*/
     public void retirar(double monto) {
         if (monto <= saldo) {
             saldo -= monto;
