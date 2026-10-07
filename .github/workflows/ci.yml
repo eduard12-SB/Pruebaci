@@ -17,6 +17,6 @@ steps:
     uses: actions/setup-java@v4
     with:
     distribution: 'temurin'
-    java-version: '17'
+    java-version: '24'
   - name: Compilar y ejecutar pruebas
     run: mvn clean test
